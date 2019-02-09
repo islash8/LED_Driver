@@ -1,0 +1,24 @@
+/*
+ * LED_Config.h
+ *
+ *  Created on: Feb 9, 2019
+ *      Author: islash8
+ */
+
+#ifndef LED_CONFIG_H_
+#define LED_CONFIG_H_
+
+#define LED_NUMBER_OF_LEDS (u8)8
+
+
+u8 LED_Au8LedType[LED_NUMBER_OF_LEDS]={LED_FORWARD_CONNECTION, LED_FORWARD_CONNECTION,
+									   LED_FORWARD_CONNECTION, LED_FORWARD_CONNECTION,
+									   LED_FORWARD_CONNECTION, LED_FORWARD_CONNECTION,
+									   LED_FORWARD_CONNECTION, LED_FORWARD_CONNECTION};
+
+u8 LED_Au8LedConnection[LED_NUMBER_OF_LEDS]={DIO_PIN24, DIO_PIN25,
+										     DIO_PIN26, DIO_PIN27,
+											 DIO_PIN28, DIO_PIN29,
+											 DIO_PIN30, DIO_PIN31};
+
+#endif /* LED_CONFIG_H_ */
